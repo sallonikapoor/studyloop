@@ -52,7 +52,7 @@ export interface LearnSession {
   missed: string[];
   /** Increments on every answer / new round. */
   step: number;
-  /** Lets "I was actually right" reverse the last wrong answer. */
+  /** Lets "Override: I was right" reverse the last wrong answer. */
   undo: UndoInfo | null;
 }
 

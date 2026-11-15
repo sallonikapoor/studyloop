@@ -262,7 +262,7 @@ export function LearnPage({ setId }: { setId: string }) {
                 <div className="row wrap end">
                   {shown.type === 'written' && feedback.given.trim() && (
                     <button className="btn" onClick={override}>
-                      I was actually right
+                      Override: I was right
                     </button>
                   )}
                   <button className="btn primary" onClick={next} autoFocus>

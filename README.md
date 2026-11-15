@@ -14,7 +14,7 @@ No accounts and no server. All data stays in your browser.
 - **Fast card entry** — press Enter in the definition box to add a card and jump straight back to the term box.
 - **Bulk import** — paste one card per line (tab-separated by default, or comma, ` - `, semicolon, or a custom separator) and preview the split before confirming.
 - **Adaptive Learn mode** — cards move from *Not studied* to *Familiar* to *Mastered* through multiple-choice and written questions, in rounds that prioritise what you missed.
-- **Forgiving answer checking** — ignores capitalisation, spacing and punctuation, tolerates small typos, and offers an "I was actually right" override.
+- **Forgiving answer checking** — ignores capitalisation, spacing and punctuation, tolerates small typos, and offers an "Override: I was right" button.
 - **Add terms mid-session** — new cards join the next round without losing your place.
 - **Automatic saving** — progress is stored after every answer, so you can close the tab mid-round and resume later.
 - **Flashcards mode** — flip, navigate, and mark cards "know it" or "still learning".

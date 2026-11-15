@@ -283,7 +283,7 @@ describe('answering within a round', () => {
     expect(answerCurrent(set, set.session!.queue[1], true)).toBe(set);
   });
 
-  it('"I was actually right" turns the last miss into a correct answer', () => {
+  it('"Override: I was right" turns the last miss into a correct answer', () => {
     let set = startRound(setOf(['a', 'b', 'c'].map((t) => card(t, 'x', { level: 1, seen: true }))));
     const a = set.session!.queue[0];
     set = answer(set, false);

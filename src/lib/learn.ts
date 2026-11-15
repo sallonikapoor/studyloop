@@ -273,7 +273,7 @@ export function answerCurrent(
   };
 }
 
-/** "I was actually right": reverse the last wrong answer and count it correct. */
+/** "Override: I was right": reverse the last wrong answer and count it correct. */
 export function overrideLastAnswer(set: StudySet, now: number = Date.now()): StudySet {
   const session = set.session;
   const undo = session?.undo;
